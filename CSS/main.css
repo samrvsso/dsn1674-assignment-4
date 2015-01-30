@@ -1,29 +1,45 @@
 html{
-  background-color: #9AA1B2;
+  background-color: #B0B8CC;
   font-size: 1rem;
-  text-align: center;
   font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+main{
+  margin: 0;
 }
 
 body{
-  margin: 0;
+  margin: 1em;
 }
 
 header{
   background-color: #797E8C;
-  padding: 1em 2em 1em 2em;
   margin: 0;
-  border: 5px solid #797E8C;
   border-radius: 0px;
+  border: 5px solid #797E8C;
   font-family: 'Oswald', sans-serif;
   color: white;
 }
 
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
 h2{
   font-family: 'Oswald', sans-serif;
-  color: 42454C;
+  color: #42454C;
   text-align: left;
-  padding: 1em;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 1rem;
 }
 
 a{
@@ -60,20 +76,45 @@ nav a{
   font-family: 'Oswald', sans-serif;
 }
 
+nav:hover{
+  color: white;
+}
+
 ol {
-  list-style-type: lower-roman;
+  list-style-type: upper-roman;
   padding: 1em;
   line-height: 1.5;
   font-size: 1rem;
+  color: #42454C;
+}
+
+ul {
+  list-style: none;
+  padding:0 0 0 1em;
+  margin:0;
 }
 
 p{
   text-align: left;
-  padding: 1em;
+  color: #42454C;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1rem;
 }
 
 dl{
   text-align: left;
+  color: #42454C;
+  line-height: 2;
+}
+dd{
+  margin:0;
+  padding:0 0 2em 0;
+  color: #636772;
+}
+
+
+data{
+  line-height: 2;
 }
 
 blockquote{
@@ -81,26 +122,39 @@ blockquote{
   color: white;
   font-style: italic;
   text-align: left;
+  font-family: 'Slabo 27px', serif;}
 
+blockquote span{
+  color: #797F8C;
+  font-size: 2.5rem;
 }
 
 div {
-  font-size: .7rem;
+  font-size: .75rem;
   color: white;
   font-style: italic;
   text-align: right;
 }
 
-figcaption{
-  font-style: italic;
-}
-
-dl{
-  line-height: 1.5;
-}
-
 img{
   width: 100%;
+  border: solid black;
+  border-radius: 20px;
+}
+
+figure {
+  border-radius: 20px;
+  border: solid white;
+  list-style-type: none;
+  padding: 1.5em;
+  background-color: #797E8C;
+  text-align: center;
+}
+figcaption {
+  color: #B0B8CC;
+  font-style: italic;
+  font-size: .75rem;
+
 }
 
 a {
@@ -111,12 +165,20 @@ a {
 }
 
 a:hover {
-  color: black
+  color: white;
 }
 
 footer{
-  background-color: #9AA1B2;
-  padding: 1em 1em 1em 1em;
+  padding: 0 0 1em 0;
   margin: 0;
+  background-color: #797E8C;
   text-align: left;
+}
+
+b{
+  color: #848998;
+}
+
+b:hover{
+  color: #2C2E32;
 }
