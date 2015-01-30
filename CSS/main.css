@@ -9,25 +9,34 @@ body{
   margin: 0;
 }
 
-h1 {
+header{
   background-color: #797E8C;
-  padding: 1em 2em 0.5em 3em;
+  padding: 1em 2em 1em 2em;
   margin: 0;
-  border: 5px solid #9AA1B2;
+  border: 5px solid #797E8C;
   border-radius: 0px;
   font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  color: 42454C;
+  text-align: left;
+  padding: 1em;
 }
 
 a{
-  background-color: #9AA1B2;
+  background-color: #797E8C;
   display: block;
   color: #42454C;
   font-family: 'Oswald', sans-serif;
 }
 
 nav{
-  background-color: #9AA1B2;
+  background-color: #797E8C;
   text-align: center;
+  margin: 0;
 }
 
 nav ul{
@@ -38,15 +47,76 @@ nav ul{
 
 nav li{
   display: inline-block;
+  margin: 0em 0em .25em 0em;
 }
 
 nav a{
   display: inline-block;
-  padding: o.5em 0.75em;
+  padding: 0.5em 0.75em;
   background-color: #42454C;
   color: #B0B8CC;
   text-decoration: none;
   border-radius: 4px;
-  width: 5em;
   font-family: 'Oswald', sans-serif;
+}
+
+ol {
+  list-style-type: lower-roman;
+  padding: 1em;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+p{
+  text-align: left;
+  padding: 1em;
+}
+
+dl{
+  text-align: left;
+}
+
+blockquote{
+  font-size: 1.7rem;
+  color: white;
+  font-style: italic;
+  text-align: left;
+
+}
+
+div {
+  font-size: .7rem;
+  color: white;
+  font-style: italic;
+  text-align: right;
+}
+
+figcaption{
+  font-style: italic;
+}
+
+dl{
+  line-height: 1.5;
+}
+
+img{
+  width: 100%;
+}
+
+a {
+  background-color: #797E8C;
+  display: block;
+  color: #42454C;
+  font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+  color: black
+}
+
+footer{
+  background-color: #9AA1B2;
+  padding: 1em 1em 1em 1em;
+  margin: 0;
+  text-align: left;
 }
