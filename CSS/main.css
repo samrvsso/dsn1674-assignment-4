@@ -6,7 +6,7 @@ html{
 }
 
 main{
-  margin: 0;
+  margin: 0; /*looks better not extended*/
 }
 
 body{
